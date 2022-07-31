@@ -9,7 +9,7 @@
 - React Router V6
 - Styled Components
 
-## Folder organization:
+## Folder organization
 
 - assets - stores all images
 - components - components shared between pages
