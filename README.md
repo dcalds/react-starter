@@ -18,3 +18,4 @@
 - router - defines all routes for pages on project
 - services - connection with external api
 - utils - functions used shared between components and pages
+- styles - global styles for all project
