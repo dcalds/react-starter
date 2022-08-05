@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Router from './router';
 import reportWebVitals from './reportWebVitals';
+import { GlobalStyles, Theme } from "./styles";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Router />
+    <Theme>
+      <GlobalStyles />
+      <Router />
+    </Theme>
   </React.StrictMode>
 );
 

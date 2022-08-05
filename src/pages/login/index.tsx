@@ -1,9 +1,9 @@
-import React from 'react';
+import * as S from './styles';
 
 function Login() {
   return (
     <section className="login">
-      <h1> Login </h1>
+      <S.Text> Login </S.Text>
     </section>
   );
 }

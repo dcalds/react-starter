@@ -14,8 +14,12 @@ const theme = {
   },
 };
 
+type BoxProps = {
+  children: React.ReactNode; // 👈️ type children
+};
+
 export type ThemeType = typeof theme;
 
-export const Theme: React.FC = ( children: any ) => {
+export const Theme: React.FC<BoxProps> = ({ children }: BoxProps) => {
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
 };

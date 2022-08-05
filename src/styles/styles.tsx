@@ -14,12 +14,4 @@ export const GlobalStyles = createGlobalStyle<{ theme: ThemeType }>`
   body {
     background-color: ${({ theme }) => theme.colors.ice};
   }
-  html {
-    font-size: 62.5%;
-  }
-  @media (max-width: 1250px) {
-    html {
-      font-size: 50%;
-    }
-  }
 `;
