@@ -1,10 +1,14 @@
 import * as S from './styles';
+import { Layout, Button } from '../../components';
 
 function Login() {
   return (
-    <section className="login">
-      <S.Text> Login </S.Text>
-    </section>
+    <Layout isFluid={false}>
+      <S.Container>
+        <S.Text> Ir Para Dashboard </S.Text>
+        <Button text="Entrar" link="/dashboard" />
+      </S.Container>
+    </Layout>
   );
 }
 

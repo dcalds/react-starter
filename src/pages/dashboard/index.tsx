@@ -1,11 +1,15 @@
-import React from 'react';
+import * as S from './styles';
+import { Button, Layout } from '../../components';
 import './styles';
 
 function Dashboard() {
   return (
-    <section className="dashboard">
-      <h1> Login </h1>
-    </section>
+    <Layout isFluid={false}>
+      <S.Container>
+        <S.Text> Sair </S.Text>
+        <Button text="Sair" link="/" />
+      </S.Container>
+    </Layout>
   );
 }
 
